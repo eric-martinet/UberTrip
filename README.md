@@ -31,5 +31,7 @@ Visualisation maps are in the Jupyter notebooks, and the synthesis of the scorin
 
 Overall, the Birch model has the best scoring, but the resulting model is quite simple (basically Manhattan / suburbs). KMeans has a lower scoring, but is able to split Manhattan in 3 areas: South, North, and West.
 
+DBSCAN, despite poor scoring, is actually able to detect the 3 main airports of New-York: La Guardia, JFK, and Newark, in addition to Manhattan and the suburbs.
+
 ## Links
 [This repo] (https://github.com/eric-martinet/UberTrip)
