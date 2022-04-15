@@ -9,6 +9,8 @@
 
 The goal of this project is to practice unsupervised machine learning (clustering) using Uber trips data (New-York / August 2014).
 
+We aim at identifying geographical clusters for Uber rides.
+
 ## Expectations
 - Clean, well-commented code
 - Clean data with EDA
@@ -21,13 +23,13 @@ The goal of this project is to practice unsupervised machine learning (clusterin
 
 ## Repo organisation
 - [data](./data): original and cleaned data
-- [notebook](./notebook): Jupyter notebooks to clean & explore data, and one notebook for each SL model
+- [notebook](./notebook): Jupyter notebook to clean & explore data, and one notebook for each USL model
 
 
 ## Results
-In our case (data cleaning & encoding, selection of models, features selection and hyperparameters tuning), the best model is the decision tree classifier, while Gaussian NB and Voting Classifier can do a good enough job.
+Visualisation maps are in the Jupyter notebooks, and the synthesis of the scoring in the pptx file.
 
-However, we reject the Quadractics Discrimimant Analysis.
+Overall, the Birch model has the best scoring, but the resulting model is quite simple (basically Manhattan / suburbs). KMeans has a lower scoring, but is able to split Manhattan in 3 areas: South, North, and West.
 
 ## Links
-[This repo] (https://github.com/eric-martinet/Project7_SupervisedLearningNetflix)
+[This repo] (https://github.com/eric-martinet/UberTrip)
